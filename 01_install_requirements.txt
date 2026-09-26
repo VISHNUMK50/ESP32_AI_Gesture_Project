@@ -1,0 +1,23 @@
+Laptop:
+Python 3.10/3.11 recommended
+pip install opencv-python mediapipe numpy pyserial scikit-learn tensorflow
+
+Arduino IDE:
+Install ESP32 board package.
+Select: ESP32 Dev Module
+Select the correct COM port.
+
+IMPORTANT:
+This project uses the laptop webcam + MediaPipe to extract 21 hand landmarks.
+The ESP32 performs the final gesture classification with a tiny neural network.
+
+Gesture classes:
+0 = FIST
+1 = ONE
+2 = TWO
+3 = PALM
+
+Hardware:
+ESP32-WROOM-32 DevKit
+Servo motor
+USB cable

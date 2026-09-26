@@ -1,0 +1,18 @@
+WIRING
+
+ESP32 DevKit V1 / WROOM-32
+Servo:
+  Servo signal  -> GPIO 18
+  Servo VCC     -> 3.3V
+  Servo GND     -> GND
+
+Onboard LED:
+  GPIO 2 -> onboard LED (normally already connected)
+  No external LED wiring required.
+
+USB:
+  ESP32 USB -> laptop
+
+SERVO POWER:
+Do NOT power a larger servo from the ESP32 3.3V pin.
+For a small SG90, a separate regulated 5V supply is recommended.
